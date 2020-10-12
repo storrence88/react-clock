@@ -1,4 +1,5 @@
 import React from 'react';
+import Clock from './components/Clock'
 import { Reset } from 'styled-reset'
 import styled from 'styled-components'
 
@@ -14,7 +15,7 @@ function App() {
     <>
       <Reset />
       <Wrapper>
-        This is the App component!
+        <Clock />
       </Wrapper>
     </>
   );
